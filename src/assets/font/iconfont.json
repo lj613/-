@@ -1,0 +1,79 @@
+{
+  "id": "2053253",
+  "name": "myapp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7549356",
+      "name": "下拉",
+      "font_class": "dropdown",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "9512532",
+      "name": "叉",
+      "font_class": "cross",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "5037719",
+      "name": "右箭头",
+      "font_class": "-right-arrow",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "765381",
+      "name": "我的",
+      "font_class": "my",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "10678401",
+      "name": "back",
+      "font_class": "back",
+      "unicode": "e6db",
+      "unicode_decimal": 59099
+    },
+    {
+      "icon_id": "10678434",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "1473243",
+      "name": "电影",
+      "font_class": "movie",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "11372734",
+      "name": "影院",
+      "font_class": "cinema",
+      "unicode": "e8c0",
+      "unicode_decimal": 59584
+    },
+    {
+      "icon_id": "9557800",
+      "name": "信息",
+      "font_class": "message",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "7197902",
+      "name": "短信",
+      "font_class": "msg",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    }
+  ]
+}

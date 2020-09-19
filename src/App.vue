@@ -1,32 +1,50 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+     <!-- 路由容器 -->
+     <router-view></router-view>
+    <tabbar v-show="isTabbarShow"></tabbar>
+    <!-- <tabbar v-show="isShow"></tabbar> -->
+
   </div>
 </template>
+<script>
+// import axios from 'axios'
+import tabbar from '@/components/Tabbar'
+import {mapState} from 'vuex'
+export default {
+  data() {
+    return {
+    }
+  },
+  components:{
+    tabbar
+  },
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  mounted() {
+  
+  },
+  // computed: {
+  //   isShow(){
+  //     return this.$store.state.isTabbarShow
+  //   }
+  // },
+  // 可修改为下面写法
+  computed: {
+    ...mapState(["isTabbarShow"])
+  },
+  
 }
-
-#nav {
-  padding: 30px;
+</script>
+<style >
+*{
+  margin: 0;
+  padding: 0;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+html{
+  width: 100%;
+  height: 100%;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+li{
+  list-style: none;
 }
 </style>
